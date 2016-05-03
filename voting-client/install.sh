@@ -13,3 +13,4 @@ npm install --save react-addons-pure-render-mixin
 npm install --save react-router@2.0.0
 npm install --save redux
 npm install --save react-redux
+npm install --save socket.io-client

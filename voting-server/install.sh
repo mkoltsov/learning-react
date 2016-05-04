@@ -3,3 +3,4 @@ npm install --save-dev mocha chai
 npm install --save immutable
 npm install --save-dev chai-immutable
 npm install --save redux
+npm install --save socket.io

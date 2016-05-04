@@ -71,5 +71,6 @@ describe('reducer', () => {
   expect(finalState).to.equal(fromJS({
     winner: 'Trainspotting'
   }));
+  
   });
 });

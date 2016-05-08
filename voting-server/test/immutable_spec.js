@@ -1,6 +1,7 @@
 import {expect} from 'chai';
 import {List, Map} from 'immutable';
 
+import {setEntries} from '../src/core';
 
 describe('immutability', () => {
 
@@ -46,10 +47,7 @@ describe('immutability', () => {
    describe('a tree', () => {
 
     function addMovie(currentState, movie) {
-      return currentState.set(
-        'movies',
-        currentState.get('movies').push(movie)
-      );
+	return currentState.update('movies', movies => movies.push(movie));
     }
 
     it('is immutable', () => {

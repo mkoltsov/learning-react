@@ -10,3 +10,4 @@ npm install --save-dev react-hot-loader
 npm install --save-dev react-hot-loader
 npm install --save react-addons-test-utils
 npm install --save react-addons-pure-render-mixin
+npm install --save react-router@2.0.0
